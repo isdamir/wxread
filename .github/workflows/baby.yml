@@ -1,4 +1,4 @@
-name: wxread
+name: wxread-baby
 
 concurrency:
   group: ${{ github.workflow }} # 使用工作流名称作为并发组的key
