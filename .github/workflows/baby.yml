@@ -43,13 +43,13 @@ jobs:
 
     - name: Run deployment script
       env:
-        WXREAD_CURL_BASH: ${{ secrets.WXREAD_CURL_BASH }}
+        WXREAD_CURL_BASH: ${{ secrets.WXREAD_CURL_BASH_BABY }}
         PUSH_METHOD: ${{ secrets.PUSH_METHOD }}
         PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         WXPUSHER_SPT: ${{ secrets.WXPUSHER_SPT }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        SERVERCHAN_SPT:  ${{ secrets.SERVERCHAN_SPT }}
+        SERVERCHAN_SPT:  ${{ secrets.SERVERCHAN_SPT_BABY }}
         READ_NUM: ${{ vars.READ_NUM }}  # 使用 Repository Variables
 
       run: |
